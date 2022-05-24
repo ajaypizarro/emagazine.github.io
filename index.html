@@ -21,9 +21,9 @@
             min-height: 300px;
         }
 
-        #font:hover {
+        /*#font:hover {
           color: orange;
-        }
+        }*/
 
         #font {
           font-family: tahoma;
@@ -39,7 +39,65 @@
           color:orange;
         }
 
+        .sports-item {
+          border: 1px solid white;
+        }
 
+        .item-image {
+          position: relative;
+          overflow: hidden;
+        }
+
+        .item-image:hover .btns{
+          bottom: 0;
+        }
+
+        .heart-icon {
+          position: absolute;
+          top: 15px;
+          right: 15px;
+          font-size: 15px;
+        }
+
+        .product-type {
+          font-size: 10px;
+          opacity: 0.8;
+        }
+
+        .product-name {
+          transition: all 0.3s;
+        }
+
+        .product-name:hover{
+          color: rgb(214, 154, 3)!important;
+        }
+
+        .product-price {
+          color: rgb(214, 154, 3);
+        }
+
+        .rating {
+          font-size: 10px;
+        }
+
+        .btns {
+          position: absolute;
+          left: 0;
+          bottom: -100;
+          font-size: 15px;
+          font-weight: 300;
+        }
+
+        .btns button {
+          border: none;
+          background-color: black;
+          color: white;
+          transition: all 0.3s;
+        }
+
+        .btns button:hover{
+          color: gold;
+        }
     </style>
 
 </head>
@@ -52,10 +110,10 @@
           <div class="carousel-caption d-none d-md-block">
             <h5 class="btn btn-lg btn-dark"><img src="images/Spain.gif"><b id="font"> Carlos Alcaraz Garfia</b></h5>
             <div class="slider-btn">
-              <button class="btn btn-dark bi-person-circle"><i id="font2"><a href="Alcaraz.html" class="link-info"> Biography</a></i></button>
-              <button class="btn btn-dark bi-calendar-event-fill"><i id="font2"><a href="Alcarazevent.html" class="link-info"> Events</a></i></button>
-              <button class="btn btn-dark bi-info-circle-fill"><i id="font2"><a href="Aboutus.html" class="link-info"> About Us</a></i></button>
-              <button class="btn btn-dark bi-person-lines-fill"><i id="font2"><a href="contactus.html" class="link-info"> Contact Us</a></i></button>
+              <button class="btn btn-dark bi-person-circle"><i id="font2"><a href="Alcaraz.html" class="link-light"> Biography</a></i></button>
+              <button class="btn btn-dark bi-calendar-event-fill"><i id="font2"><a href="Alcarazevent.html" class="link-light"> Events</a></i></button>
+              <button class="btn btn-dark bi-info-circle-fill"><i id="font2"><a href="Aboutus.html" class="link-light"> About Us</a></i></button>
+              <button class="btn btn-dark bi-person-lines-fill"><i id="font2"><a href="contactus.html" class="link-light"> Contact Us</a></i></button>
             </div>
           </div>
         </div>
@@ -65,10 +123,10 @@
           <div class="carousel-caption d-none d-md-block">
             <h5 class="btn btn-lg btn-dark"><img src="images/Russia.gif"><b id="font"> Daniil Medvedev</b></h5>
             <div class="slider-btn">
-              <button class="btn btn-dark bi-person-circle"><i id="font2"><a href="Medvedev.html" class="link-info"> Biography</a></i></button>
-              <button class="btn btn-dark bi-bookmark-star-fill"><i id="font2"><a href="Medvedevevent.html" class="link-info"> Events</a></i></button>
-              <button class="btn btn-dark bi-info-circle-fill"><i id="font2"><a href="Aboutus.html" class="link-info">About Us</a></i></button>
-              <button class="btn btn-dark bi-person-lines-fill"><i id="font2"><a href="contactus.html" class="link-info"> Contact Us</a></i></button>
+              <button class="btn btn-dark bi-person-circle"><i id="font2"><a href="Medvedev.html" class="link-light"> Biography</a></i></button>
+              <button class="btn btn-dark bi-bookmark-star-fill"><i id="font2"><a href="Medvedevevent.html" class="link-light"> Events</a></i></button>
+              <button class="btn btn-dark bi-info-circle-fill"><i id="font2"><a href="Aboutus.html" class="link-light">About Us</a></i></button>
+              <button class="btn btn-dark bi-person-lines-fill"><i id="font2"><a href="contactus.html" class="link-light"> Contact Us</a></i></button>
             </div>
           </div>
         </div>
@@ -78,10 +136,10 @@
           <div class="carousel-caption d-none d-md-block">
             <h5 class="btn btn-lg btn-dark"><img src="images/Russia.gif"><b id="font"> Andrey Rublev</b></h5>
             <div class="slider-btn">
-              <button class="btn btn-dark bi-person-circle"><i id="font2"><a href="Rublev.html" class="link-info"> Biography</a></i></button>
-              <button class="btn btn-dark bi-bookmark-star-fill"><i id="font2"><a href="Rublevevent.html" class="link-info"> Events</a></i></button>
-              <button class="btn btn-dark bi-info-circle-fill"><i id="font2"><a href="Aboutus.html" class="link-info"> About Us</a></i></button>
-              <button class="btn btn-dark bi-person-lines-fill"><i id="font2"><a href="contactus.html" class="link-info"> Contact Us</a></i></button>
+              <button class="btn btn-dark bi-person-circle"><i id="font2"><a href="Rublev.html" class="link-light"> Biography</a></i></button>
+              <button class="btn btn-dark bi-bookmark-star-fill"><i id="font2"><a href="Rublevevent.html" class="link-light"> Events</a></i></button>
+              <button class="btn btn-dark bi-info-circle-fill"><i id="font2"><a href="Aboutus.html" class="link-light"> About Us</a></i></button>
+              <button class="btn btn-dark bi-person-lines-fill"><i id="font2"><a href="contactus.html" class="link-light"> Contact Us</a></i></button>
             </div>
           </div>
         </div>
@@ -91,10 +149,10 @@
           <div class="carousel-caption d-none d-md-block">
             <h5 class="btn btn-lg btn-dark"><img src="images/Germany.gif"><b id="font"> Alexander Zverev</b></h5>
             <div class="slider-btn">
-              <button class="btn btn-dark bi-person-circle"><i id="font2"><a href="Zverev.html" class="link-info"> Biography</a></i></button>
-              <button class="btn btn-dark bi-bookmark-star-fill"><i id="font2"><a href="Zverevevent.html" class="link-info"> Events</a></i></button>
-              <button class="btn btn-dark bi-info-circle-fill"><i id="font2"><a href="Aboutus.html" class="link-info"> About Us</a></i></button>
-              <button class="btn btn-dark bi-person-lines-fill"><i id="font2"><a href="contactus.html" class="link-info"> Contact Us</a></i></button>
+              <button class="btn btn-dark bi-person-circle"><i id="font2"><a href="Zverev.html" class="link-light"> Biography</a></i></button>
+              <button class="btn btn-dark bi-bookmark-star-fill"><i id="font2"><a href="Zverevevent.html" class="link-light"> Events</a></i></button>
+              <button class="btn btn-dark bi-info-circle-fill"><i id="font2"><a href="Aboutus.html" class="link-light"> About Us</a></i></button>
+              <button class="btn btn-dark bi-person-lines-fill"><i id="font2"><a href="contactus.html" class="link-light"> Contact Us</a></i></button>
             </div>
           </div>
         </div>
@@ -104,10 +162,10 @@
           <div class="carousel-caption d-none d-md-block">
             <h5 class="btn btn-lg btn-dark"><img src="images/Greece.gif"><b id="font"> Stefanos Tsitsipas</b></h5>
             <div class="slider-btn">
-              <button class="btn btn-dark bi-person-circle"><i id="font2"><a href="Tsitsipas.html" class="link-info"> Biography</a></i></button>
-              <button class="btn btn-dark bi-bookmark-star-fill"><i id="font2"><a href="Tsitsipasevent.html" class="link-info"> Events</a></i></button>
-              <button class="btn btn-dark bi-info-circle-fill"><i id="font2"><a href="Aboutus.html" class="link-info"> About Us</a></i></button>
-              <button class="btn btn-dark bi-person-lines-fill"><i id="font2"><a href="contactus.html" class="link-info"> Contact Us</a></i></button>
+              <button class="btn btn-dark bi-person-circle"><i id="font2"><a href="Tsitsipas.html" class="link-light"> Biography</a></i></button>
+              <button class="btn btn-dark bi-bookmark-star-fill"><i id="font2"><a href="Tsitsipasevent.html" class="link-light"> Events</a></i></button>
+              <button class="btn btn-dark bi-info-circle-fill"><i id="font2"><a href="Aboutus.html" class="link-light"> About Us</a></i></button>
+              <button class="btn btn-dark bi-person-lines-fill"><i id="font2"><a href="contactus.html" class="link-light"> Contact Us</a></i></button>
             </div>
           </div>
         </div>
@@ -126,6 +184,250 @@
 
       </div>
 
+    </div>
+  </div>
+  <hr>
+  <div class="container">
+    <div class="row my-5">
+      <h1 class="text-center">Featured Products</h1>
+      <p class="fw-light w-75 mx-auto text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque commodi explicabo, aliquam deleniti exercitationem blanditiis ipsa? Perferendis saepe asperiores error nobis! Autem non in explicabo id. Ducimus esse veniam corrupti!</p>
+    </div>
+    <div class="row g-4 my-5">
+      <div class="col sports-item mx-auto">
+        <div class="item-image">
+          <img src="images/nikeshirt.jpg" alt="" class="img-fluid d-block mx-auto">
+            <span class="heart-icon">
+              <i class="bi bi-heart"></i>
+            </span>
+          <div class="row btns w-100 mx-auto text-center">
+            <button type="button" class="col-6 py-1">
+              <i class="bi bi-cart-plus"></i> Add to cart
+            </button>
+            <button type="button" class="col-6 py-1">
+              <i class="bi bi-binoculars"></i> View
+            </button>
+          </div>
+          </div>
+          <div class="product-info p-3">
+            <span class="product-type">Sports T-Shirt & Accessories</span>
+            <a href="#" class="d-block text-dark text-decoration-none py-1 product-name">Nike Men's Court Dri-FIT Breathe Advantage Print Tennis Top</a>
+            <span class="product-price">$ 70.00</span>
+            <div class="rating d-flex mt-1">
+              <span>
+                <i class="bi bi-star-fill"></i>
+              </span>
+              <span>
+                <i class="bi bi-star-fill"></i>
+              </span>
+              <span>
+                <i class="bi bi-star-fill"></i>
+              </span>
+              <span>
+                <i class="bi bi-star-fill"></i>
+              </span>
+              <span>
+                <i class="bi bi-star-fill"></i>
+              </span>
+              <span>(25 reviews)</span>
+            </div>
+          </div>
+        </div>
+        <div class="col sports-item mx-auto">
+          <div class="item-image">
+            <img src="images/fila-shirt.jpg" alt="" class="img-fluid d-block mx-auto">
+              <span class="heart-icon">
+                <i class="bi bi-heart"></i>
+              </span>
+            <div class="row btns w-100 mx-auto text-center">
+              <button type="button" class="col-6 py-1">
+                <i class="bi bi-cart-plus"></i> Add to cart
+              </button>
+              <button type="button" class="col-6 py-1">
+                <i class="bi bi-binoculars"></i> View
+              </button>
+            </div>
+            </div>
+            <div class="product-info p-3">
+              <span class="product-type">Sports T-Shirt & Accessories</span>
+              <a href="#" class="d-block text-dark text-decoration-none py-1 product-name">Fila Men's Center Court Short Sleeve Tennis Crew</a>
+              <span class="product-price">$ 60.00</span>
+              <div class="rating d-flex mt-1">
+                <span>
+                  <i class="bi bi-star-fill"></i>
+                </span>
+                <span>
+                  <i class="bi bi-star-fill"></i>
+                </span>
+                <span>
+                  <i class="bi bi-star-fill"></i>
+                </span>
+                <span>
+                  <i class="bi bi-star-fill"></i>
+                </span>
+                <span>
+                  <i class="bi bi-star-fill"></i>
+                </span>
+                <span>(25 reviews)</span>
+              </div>
+            </div>
+          </div>
+          <div class="col sports-item mx-auto">
+            <div class="item-image">
+              <img src="images/asics-shirt.jpg" alt="" class="img-fluid d-block mx-auto">
+                <span class="heart-icon">
+                  <i class="bi bi-heart"></i>
+                </span>
+              <div class="row btns w-100 mx-auto text-center">
+                <button type="button" class="col-6 py-1">
+                  <i class="bi bi-cart-plus"></i> Add to cart
+                </button>
+                <button type="button" class="col-6 py-1">
+                  <i class="bi bi-binoculars"></i> View
+                </button>
+              </div>
+              </div>
+              <div class="product-info p-3">
+                <span class="product-type">Sports T-Shirt & Accessories</span>
+                <a href="#" class="d-block text-dark text-decoration-none py-1 product-name">Asics Men's Court Tennis Polo Shirt</a>
+                <span class="product-price">$ 45.00</span>
+                <div class="rating d-flex mt-1">
+                  <span>
+                    <i class="bi bi-star-fill"></i>
+                  </span>
+                  <span>
+                    <i class="bi bi-star-fill"></i>
+                  </span>
+                  <span>
+                    <i class="bi bi-star-fill"></i>
+                  </span>
+                  <span>
+                    <i class="bi bi-star-fill"></i>
+                  </span>
+                  <span>
+                    <i class="bi bi-star-fill"></i>
+                  </span>
+                  <span>(25 reviews)</span>
+                </div>
+              </div>
+            </div>
+            <div class="col sports-item mx-auto">
+              <div class="item-image">
+                <img src="images/lacoste-shirt.jpg" alt="" class="img-fluid d-block mx-auto">
+                  <span class="heart-icon">
+                    <i class="bi bi-heart"></i>
+                  </span>
+                <div class="row btns w-100 mx-auto text-center">
+                  <button type="button" class="col-6 py-1">
+                    <i class="bi bi-cart-plus"></i> Add to cart
+                  </button>
+                  <button type="button" class="col-6 py-1">
+                    <i class="bi bi-binoculars"></i> View
+                  </button>
+                </div>
+                </div>
+                <div class="product-info p-3">
+                  <span class="product-type">Sports T-Shirt & Accessories</span>
+                  <a href="#" class="d-block text-dark text-decoration-none py-1 product-name">Lacoste Men's Players Tennis Polo White and Black</a>
+                  <span class="product-price">$ 110.00</span>
+                  <div class="rating d-flex mt-1">
+                    <span>
+                      <i class="bi bi-star-fill"></i>
+                    </span>
+                    <span>
+                      <i class="bi bi-star-fill"></i>
+                    </span>
+                    <span>
+                      <i class="bi bi-star-fill"></i>
+                    </span>
+                    <span>
+                      <i class="bi bi-star-fill"></i>
+                    </span>
+                    <span>
+                      <i class="bi bi-star-fill"></i>
+                    </span>
+                    <span>(25 reviews)</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col sports-item mx-auto">
+                <div class="item-image">
+                  <img src="images/adidasshirt.jpg" alt="" class="img-fluid d-block mx-auto">
+                    <span class="heart-icon">
+                      <i class="bi bi-heart"></i>
+                    </span>
+                  <div class="row btns w-100 mx-auto text-center">
+                    <button type="button" class="col-6 py-1">
+                      <i class="bi bi-cart-plus"></i> Add to cart
+                    </button>
+                    <button type="button" class="col-6 py-1">
+                      <i class="bi bi-binoculars"></i> View
+                    </button>
+                  </div>
+                  </div>
+                  <div class="product-info p-3">
+                    <span class="product-type">Sports T-Shirt & Accessories</span>
+                    <a href="#" class="d-block text-dark text-decoration-none py-1 product-name">Adidas Men's Paris Freelift Tennis Polo Shirt White and Pulse Lime</a>
+                    <span class="product-price">$ 70.00</span>
+                    <div class="rating d-flex mt-1">
+                      <span>
+                        <i class="bi bi-star-fill"></i>
+                      </span>
+                      <span>
+                        <i class="bi bi-star-fill"></i>
+                      </span>
+                      <span>
+                        <i class="bi bi-star-fill"></i>
+                      </span>
+                      <span>
+                        <i class="bi bi-star-fill"></i>
+                      </span>
+                      <span>
+                        <i class="bi bi-star-fill"></i>
+                      </span>
+                      <span>(25 reviews)</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col sports-item mx-auto">
+                  <div class="item-image">
+                    <img src="images/newbalance-shirt.jpg" alt="" class="img-fluid d-block mx-auto">
+                      <span class="heart-icon">
+                        <i class="bi bi-heart"></i>
+                      </span>
+                    <div class="row btns w-100 mx-auto text-center">
+                      <button type="button" class="col-6 py-1">
+                        <i class="bi bi-cart-plus"></i> Add to cart
+                      </button>
+                      <button type="button" class="col-6 py-1">
+                        <i class="bi bi-binoculars"></i> View
+                      </button>
+                    </div>
+                    </div>
+                    <div class="product-info p-3">
+                      <span class="product-type">Sports T-Shirt & Accessories</span>
+                      <a href="#" class="d-block text-dark text-decoration-none py-1 product-name">New Balance Men's Tenacity Training Top</a>
+                      <span class="product-price">$ 35.00</span>
+                      <div class="rating d-flex mt-1">
+                        <span>
+                          <i class="bi bi-star-fill"></i>
+                        </span>
+                        <span>
+                          <i class="bi bi-star-fill"></i>
+                        </span>
+                        <span>
+                          <i class="bi bi-star-fill"></i>
+                        </span>
+                        <span>
+                          <i class="bi bi-star-fill"></i>
+                        </span>
+                        <span>
+                          <i class="bi bi-star-fill"></i>
+                        </span>
+                        <span>(25 reviews)</span>
+                      </div>
+                    </div>
+                  </div>
+      </div>
     </div>
   </div>
 
