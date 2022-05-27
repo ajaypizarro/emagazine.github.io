@@ -30,60 +30,83 @@
             background-image: url("images/tennisbg.jpg");
             background-size: cover;
             background-repeat: no-repeat;
-            height: 100vh;
+            height: 120vh;
 
+        }
+        header img {
+          height: 80px;
+          width: 150px;
+          margin-left: 50px;
+        }
+
+        #background-fill {
+            border: transparent;
+            border-radius: 10px;
         }
     </style>
 </head>
 <body>
 <div class="background-image">
-<div class="col-sm">
-    <button type="button" class="btn btn-dark btn-sm bg-transparent"><a href="index.html" class="link-light">Home</a></button>
-    <button type="button" class="btn btn-dark btn-sm bg-transparent"><a href="Rublevevent.html" class="link-light">Events</a></button>
-    <button type="button" class="btn btn-dark btn-sm bg-transparent"><a href="Aboutus.html" class="link-light">About Us</a></button>
-    <button type="button" class="btn btn-dark btn-sm bg-transparent"><a href="contactus.html" class="link-light">Contact Us</a></button>
-</div>
+    <header>
+        <div class="col-sm" class="container d-flex justify-content-center">
+          <img src="images/Wellplayedwhite.png">
+          <button type="button" class="btn btn-dark btn-sm"><a href="index.html" class="link-light text-decoration-none">Home</a></button>
+            <button class="btn btn-dark dropdown-toggle bi-person-circle" type="button" id="dropdown-bio" data-bs-toggle="dropdown" aria-expanded="false">Biography</button>
+            <ul class="dropdown-menu" aria-labelledby="#dropdown-bio">
+              <li><a class="dropdown-item" href="Alcaraz.html">Carlos Alcaraz</a></li>
+              <li><a class="dropdown-item" href="Medvedev.html">Daniil Medvedev</a></li>
+              <li><a class="dropdown-item" href="Rublev.html">Andrey Rublev</a></li>
+              <li><a class="dropdown-item" href="Zverev.html">Alexander Zverev</a></li>
+              <li><a class="dropdown-item" href="Tsitsipas.html">Stefanos Tsitsipas</a></li>
+            </ul>
+          <button type="button" class="btn btn-dark"><a href="Aboutus.html" class="link-light text-decoration-none"> About Us</a></button>
+          <button type="button" class="btn btn-dark btn-sm"><a href="contactus.html" class="link-light text-decoration-none">Contact Us</a></button>
+      </div>
+    </header>
     <section class="container">
         <div class="row">
             <div class="col-md-12">
                 <h2 class="text-white text-center"></h2>
             </div>
-            <div class="col-lg-6 col-md-2 col-sm-2">
+            <div class="col-lg-6 col-md-4 col-sm-2">
                 <div id="divradius" class="shadow d-flex justify-content-center align-items-center p-3 bg-transparent rounded-md flex-column border">
                 <div class="person-img">
                     <img id=image1 src="images/Rublev.png" class="img-fluid rounded-circle" alt="img 1">
                 </div>
+        <div class="bg-dark bg-opacity-50" id="background-fill">
                 <div class="person-name my-2">
-                    <h4 class="text-white">Andrey Rublev</h4>
+                    <h4 class="text-white text-center">Andrey Rublev</h4>
                 </div>
-                <div class="info">
-                    <h6 class="text-white">is a Russian professional tennis player. He has been ranked as high as world No. 7 in singles by the Association of Tennis Professionals.</h6>
-                    <h6 class="text-white">Born	20 October 1997</h6>
-                    <h6 class="text-white">Height: 1.88 m (6 ft 2 in)</h6>
-                    <h6 class="text-white">Coach: Fernando Vicente</h6>
-                    <h6 class="text-white">Prize money: US$11,652,136</h6>
-                    <h6 class="text-white">Turned pro: 2014</h6>
-                    <h6 class="text-white">Moscow, Russia</h6>
-                    <h6 class="text-white">Siblings: Anna Arina Marenko</h6>
-                </div>
-                <div class="social-icons">
+                <div class="social-icons text-center">
                     <a href="https://www.instagram.com/andreyrublev/" class="text-white"><i class="bi bi-instagram p-2"></i></a>
                     <a href="https://twitter.com/AndreyRublev97" class="text-white"><i class="bi bi-twitter p-2"></i></a>
                 </div>
+                <div class="info">
+                    <p class="text-white">is a Russian professional tennis player. He has been ranked as high as world No. 7 in singles by the Association of Tennis Professionals.</p>
+                    <p class="text-white">Born:	20 October 1997</p>
+                    <p class="text-white">Height: 1.88 m (6 ft 2 in)</p>
+                    <p class="text-white">Coach: Fernando Vicente</p>
+                    <p class="text-white">Prize money: US$11,652,136</p>
+                    <p class="text-white">Turned pro: 2014</p>
+                    <p class="text-white">Moscow, Russia</p>
+                    <p class="text-white">Siblings: Anna Arina Marenko</p>
+                </div>
+                </div>
             </div>
         </div>
-        <div class="col-lg-6 col-md-2 col-sm-2">
+        <div class="col-lg-6 col-md-4 col-sm-2">
             <div id="divradius" class="shadow d-flex justify-content-center align-items-center p-3 bg-transparent rounded-md flex-column border">
                 <div class="person-img">
                 <img src="images/Rublevnike.jpg" class="img-fluid rounded-circle" alt="img 1">
                 </div>
+            <div class="bg-dark bg-opacity-50" id="background-fill">    
                 <div class="person-nam my-5">
-                <h4 class="text-white">Sponsors</h4>
+                <h4 class="text-white text-center">Sponsors</h4>
                 </div>
                 <div class="info">
-                    <h6 class="text-white">Currently, Rublev has an endorsement of leading sports apparel brand Nike. Major tennis equipment Wilson also has a deal with the Russian star. Rublev is also signed as an IMG athlete. He is also partnered with the 4 Slam Tennis Academy.</h6>
-                    
+                    <p class="text-white">Currently, Rublev has an endorsement of leading sports apparel brand Nike. Major tennis equipment Wilson also has a deal with the Russian star. Rublev is also signed as an IMG athlete. He is also partnered with the 4 Slam Tennis Academy.</p>
                 </div>
+            </div>    
         </div>
     </div>            
     </section>

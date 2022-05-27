@@ -30,19 +30,40 @@
             background-image: url("images/tennisbg.jpg");
             background-size: cover;
             background-repeat: no-repeat;
-            height: 100vh;
+            height: 120vh;
 
+        }
+
+        header img {
+          height: 80px;
+          width: 150px;
+          margin-left: 50px;
+        }
+        #background-fill {
+            border: transparent;
+            border-radius: 10px;
         }
     </style>
 </head>
 <body>
-<div class="col-sm">
-    <button type="button" class="btn btn-dark btn-sm bg-transparent"><a href="index.html" class="link-light">Home</a></button>
-    <button type="button" class="btn btn-dark btn-sm bg-transparent"><a href="Zverevevent.html" class="link-light">Events</a></button>
-    <button type="button" class="btn btn-dark btn-sm bg-transparent"><a href="Aboutus.html" class="link-light">About Us</a></button>
-    <button type="button" class="btn btn-dark btn-sm bg-transparent"><a href="contactus.html" class="link-light">Contact Us</a></button>
- </div>
 <div class="background-image">
+    <header>
+        <div class="col-sm" class="container d-flex justify-content-center">
+          <img src="images/Wellplayedwhite.png">
+          <button type="button" class="btn btn-dark btn-sm"><a href="index.html" class="link-light text-decoration-none">Home</a></button>
+            <button class="btn btn-dark dropdown-toggle bi-person-circle" type="button" id="dropdown-bio" data-bs-toggle="dropdown" aria-expanded="false">Biography</button>
+            <ul class="dropdown-menu" aria-labelledby="#dropdown-bio">
+              <li><a class="dropdown-item" href="Alcaraz.html">Carlos Alcaraz</a></li>
+              <li><a class="dropdown-item" href="Medvedev.html">Daniil Medvedev</a></li>
+              <li><a class="dropdown-item" href="Rublev.html">Andrey Rublev</a></li>
+              <li><a class="dropdown-item" href="Zverev.html">Alexander Zverev</a></li>
+              <li><a class="dropdown-item" href="Tsitsipas.html">Stefanos Tsitsipas</a></li>
+            </ul>
+          <button type="button" class="btn btn-dark"><a href="Aboutus.html" class="link-light text-decoration-none"> About Us</a></button>
+          <button type="button" class="btn btn-dark btn-sm"><a href="contactus.html" class="link-light text-decoration-none">Contact Us</a></button>
+      </div>
+    </header>
+
     <section class="container">
         <div class="row">
             <div class="col-md-12">
@@ -53,22 +74,24 @@
                 <div class="person-img">
                     <img id=image1 src="images/Zverev.png" class="img-fluid rounded-circle" alt="img 1">
                 </div>
+        <div class="bg-dark bg-opacity-50" id="background-fill">        
                 <div class="person-name my-2">
-                    <h4 class="text-white">Alexander "Sascha" Alexandrovich Zverev</h4>
+                    <h4 class="text-white text-center">Alexander "Sascha" Alexandrovich Zverev</h4>
                 </div>
-                <div class="info">
-                    <h6 class="text-white">is a German professional tennis player. He has been ranked by the Association of Tennis Professionals as high as world No. 3, and has been a permanent fixture in the top 10 since July 2017.</h6>
-                    <h6 class="text-white">Born: April 20, 1997 (age 25 years), Hamburg, Germany</h6>
-                    <h6 class="text-white">Height: 1.98 m</h6>
-                    <h6 class="text-white">Coach: Sergi Bruguera, Alexander Zverev Sr.</h6>
-                    <h6 class="text-white">Prize money: US$31,767,815</h6>
-                    <h6 class="text-white">Turned pro: 2013</h6>
-                    <h6 class="text-white">Residence: Monte Carlo, Monaco</h6>
-                    <h6 class="text-white">Siblings: Mischa Zverev (German Tennis Player)</h6>
-                </div>
-                <div class="social-icons">
+                <div class="social-icons text-center">
                     <a href="https://www.instagram.com/alexzverev123/" class="text-white"><i class="bi bi-instagram p-2"></i></a>
                     <a href="https://www.facebook.com/alexzverev12345" class="text-white"><i class="bi bi-twitter p-2"></i></a>
+                </div>
+                <div class="info">
+                    <p class="text-white">is a German professional tennis player. He has been ranked by the Association of Tennis Professionals as high as world No. 3, and has been a permanent fixture in the top 10 since July 2017.</p>
+                    <p class="text-white">Born: April 20, 1997 (age 25 years), Hamburg, Germany</p>
+                    <p class="text-white">Height: 1.98 m</p>
+                    <p class="text-white">Coach: Sergi Bruguera, Alexander Zverev Sr.</p>
+                    <p class="text-white">Prize money: US$31,767,815</p>
+                    <p class="text-white">Turned pro: 2013</p>
+                    <p class="text-white">Residence: Monte Carlo, Monaco</p>
+                    <p class="text-white">Siblings: Mischa Zverev (German Tennis Player)</p>
+                </div> 
                 </div>
             </div>
         </div>
@@ -77,13 +100,16 @@
                 <div class="person-img">
                 <img src="images/z1.jpeg" class="img-fluid rounded-circle" alt="img 1">
                 </div>
+            <div class="bg-dark bg-opacity-50" id="background-fill">
                 <div class="person-nam my-5">
-                <h4 class="text-white">Sponsors</h4>
-                </div>
+                <h4 class="text-white text-center">Sponsors</h4>
+                </div><br>
                 <div class="info">
-                    <h6 class="text-white">Alexander Zverev's tennis rackets are sponsored by Head. He has been using its rackets since he was 5-years-old. Zverev is also a brand ambassador for Richard Mille, a luxury Swiss watch brand. Automobile firm Peugeot, along with Adidas and Z Zegna, are other major brands Sascha endorses.</h6>
-                    
+                    <p class="text-white">Alexander Zverev's tennis rackets are sponsored by Head. He has been using its rackets since he was 5-years-old.</p>
+                    <p class="text-white">Zverev is also a brand ambassador for Richard Mille, a luxury Swiss watch brand.</p>
+                    <p class="text-white">Automobile firm Peugeot, along with Adidas and Z Zegna, are other major brands Sascha endorses.</p>
                 </div>
+            </div>    
         </div>
     </div>            
     </section>

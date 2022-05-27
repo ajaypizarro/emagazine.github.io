@@ -15,11 +15,17 @@
             margin: 0%;
         }
 
+        header img {
+          height: 80px;
+          width: 150px;
+          margin-left: 50px;
+        }
+
         .background-image {
             background-image: url("images/tennisbg.jpg");
             background-size: cover;
             background-repeat: no-repeat;
-            height: 100vh;
+            height: 105vh;
         }
         
         /*body {
@@ -102,15 +108,31 @@
             color: white;
         }
 
+        p {
+            text-align: left;
+        }
+
     </style>
 
 </head>
 <body>
 <div class="background-image">
-<div class="col-sm">
-    <button type="button" class="btn btn-dark btn-sm bg-transparent"><a href="index.html" class="link-light">Home</a></button>
-    <button type="button" class="btn btn-dark btn-sm bg-transparent"><a href="contactus.html" class="link-light">Contact Us</a></button>
-</div>
+    <header>
+        <div class="col-sm" class="container d-flex justify-content-center">
+          <img src="images/Wellplayedwhite.png">
+          <button type="button" class="btn btn-dark btn-sm"><a href="index.html" class="link-light text-decoration-none">Home</a></button>
+            <button class="btn btn-dark dropdown-toggle" type="button" id="dropdown-bio" data-bs-toggle="dropdown" aria-expanded="false">Biography</button>
+            <ul class="dropdown-menu" aria-labelledby="#dropdown-bio">
+              <li><a class="dropdown-item" href="Alcaraz.html">Carlos Alcaraz</a></li>
+              <li><a class="dropdown-item" href="Medvedev.html">Daniil Medvedev</a></li>
+              <li><a class="dropdown-item" href="Rublev.html">Andrey Rublev</a></li>
+              <li><a class="dropdown-item" href="Zverev.html">Alexander Zverev</a></li>
+              <li><a class="dropdown-item" href="Tsitsipas.html">Stefanos Tsitsipas</a></li>
+            </ul>
+          <button type="button" class="btn btn-dark btn-sm bi bi-people"><a href="Aboutus.html" class="link-light text-decoration-none"> About Us</a></button>
+          <button type="button" class="btn btn-dark btn-sm"><a href="contactus.html" class="link-light text-decoration-none">Contact Us</a></button>
+      </div>
+    </header>
     <section id="about">
         <div class="about-1">
             <h1>ABOUT US</h1>
@@ -152,9 +174,9 @@
             </div>
         </div>
     </section>
-    <footer class="text-center">
+    <!--<footer class="text-center">
         <p>Copyright &copy; 2022 All rights reserved by Knewbee Inc.</p>
-    </footer>
+    </footer>-->
 
 </div>
     <!-- JavaScript Bundle with Popper -->

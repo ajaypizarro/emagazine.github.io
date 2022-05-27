@@ -38,10 +38,17 @@
 </head>
 <body>
 <div class="col-sm">
-    <button type="button" class="btn btn-light btn-sm"><a href="index.html" class="link-dark">Home</a></button>
-    <button type="button" class="btn btn-light btn-sm"><a href="Tsitsipas.html" class="link-dark">Biography</a></button>
-    <button type="button" class="btn btn-light btn-sm"><a href="Aboutus.html" class="link-dark">About Us</a></button>
-    <button type="button" class="btn btn-light btn-sm"><a href="contactus.html" class="link-dark">Contact Us</a></button>
+    <button type="button" class="btn btn-light btn-sm"><a href="index.html" class="link-dark text-decoration-none">Home</a></button>
+    <button class="btn btn-light dropdown-toggle" type="button" id="dropdown-bio" data-bs-toggle="dropdown" aria-expanded="false">Biography</button>
+    <ul class="dropdown-menu" aria-labelledby="#dropdown-bio">
+      <li><a class="dropdown-item" href="Alcaraz.html">Carlos Alcaraz</a></li>
+      <li><a class="dropdown-item" href="Medvedev.html">Daniil Medvedev</a></li>
+      <li><a class="dropdown-item" href="Rublev.html">Andrey Rublev</a></li>
+      <li><a class="dropdown-item" href="Zverev.html">Alexander Zverev</a></li>
+      <li><a class="dropdown-item" href="Tsitsipas.html">Stefanos Tsitsipas</a></li>
+    </ul>
+    <button type="button" class="btn btn-light btn-sm"><a href="Aboutus.html" class="link-dark text-decoration-none">About Us</a></button>
+    <button type="button" class="btn btn-light btn-sm"><a href="contactus.html" class="link-dark text-decoration-none">Contact Us</a></button>
 </div>
     <div class="row-cols-md-1">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/LSh-SzkVgaA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -62,7 +69,7 @@
         </table>
     </div>
     <div class="text-center mb-2">
-    <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#photos-popup">See all Photos</button>
+    <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#photos-popup">See all Photos</button>
     </div>
     <div class="modal fade" id="photos-popup" tabindex="-1" aria-labelledby="modalpopup" aria-hidden="true">
         <div class="modal-dialog">
