@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <style>
     
@@ -30,31 +31,38 @@
         margin-left: 20px;
     }
 
-    .modal-body {
-      padding: 10px;
-    }
+    header img {
+          height: 80px;
+          width: 150px;
+          margin-left: 50px;
+        }
     </style>
 
 </head>
 <body>
 <div class="col-sm">
-    <button type="button" class="btn btn-light btn-sm"><a href="index.html" class="link-dark text-decoration-none">Home</a></button>
-    <button class="btn btn-light dropdown-toggle" type="button" id="dropdown-bio" data-bs-toggle="dropdown" aria-expanded="false">Biography</button>
-      <ul class="dropdown-menu" aria-labelledby="#dropdown-bio">
-        <li><a class="dropdown-item" href="Alcaraz.html">Carlos Alcaraz</a></li>
-        <li><a class="dropdown-item" href="Medvedev.html">Daniil Medvedev</a></li>
-        <li><a class="dropdown-item" href="Rublev.html">Andrey Rublev</a></li>
-        <li><a class="dropdown-item" href="Zverev.html">Alexander Zverev</a></li>
-        <li><a class="dropdown-item" href="Tsitsipas.html">Stefanos Tsitsipas</a></li>
-      </ul>
-    <button type="button" class="btn btn-light btn-sm"><a href="Aboutus.html" class="link-dark text-decoration-none">About Us</a></button>
-    <button type="button" class="btn btn-light btn-sm"><a href="contactus.html" class="link-dark text-decoration-none">Contact Us</a></button>
+    <header>
+        <div class="col-sm" class="container d-flex justify-content-center">
+          <img src="images/Wellplayed.png">
+          <button type="button" class="btn btn-light btn-sm"><a href="index.html" class="link-dark text-decoration-none">Home</a></button>
+            <button class="btn btn-light dropdown-toggle bi-camera-reels" type="button" id="dropdown-event" data-bs-toggle="dropdown" aria-expanded="false"> Events</button>
+            <ul class="dropdown-menu" aria-labelledby="#dropdown-event">
+              <li><a class="dropdown-item" href="Alcarazevent.html">Carlos Alcaraz</a></li>
+              <li><a class="dropdown-item" href="Medvedevevent.html">Daniil Medvedev</a></li>
+              <li><a class="dropdown-item" href="Rublevevent.html">Andrey Rublev</a></li>
+              <li><a class="dropdown-item" href="Zverevevent.html">Alexander Zverev</a></li>
+              <li><a class="dropdown-item" href="Tsitsipasevent.html">Stefanos Tsitsipas</a></li>
+            </ul>
+          <button type="button" class="btn btn-light btn-sm"><a href="Aboutus.html" class="link-dark text-decoration-none"> About Us</a></button>
+          <button type="button" class="btn btn-light btn-sm"><a href="contactus.html" class="link-dark text-decoration-none"> Contact Us</a></button>
+      </div>
+    </header>
 </div>
-    <div class="row-cols-md-1">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/YFCxxpyPAkk?start=10" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="row-cols-md-1 text-center">
+    <iframe width="560" height="400" src="https://www.youtube.com/embed/YFCxxpyPAkk?start=10" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
-    <div class="photos" class="container-sm" class="row row-cols-sm-2">
+    <div class="photos" class="container-md" class="row row-cols-sm-2">
         <table>
             <thead>
                 <tr>
